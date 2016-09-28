@@ -1,3 +1,6 @@
+var circle = require('@turf/circle');
+var point = require('@turf/heplers').point;
+
 /**
  * Iterate over coordinates in any GeoJSON object, similar to
  * Array.forEach.
@@ -53,7 +56,10 @@ function coordEach(layer, callback, excludeWrapCoord) {
             if (geometry.type === 'Point') {
                 callback(coords);
             } else if (geometry.type === 'LineString' || geometry.type === 'MultiPoint') {
-                for (j = 0; j < coords.length; j++) callback(coords[j]);
+                for (j = 0; j < coords.length; j++)
+                    callback(coords[j]);
+            } else if (geometry.type === 'Circle') {
+                coordEach(circle(point(coords), geometry.radius, 16, 'meters'), callback, excludeWrapCoord);
             } else if (geometry.type === 'Polygon' || geometry.type === 'MultiLineString') {
                 for (j = 0; j < coords.length; j++)
                     for (k = 0; k < coords[j].length - wrapShrink; k++)
