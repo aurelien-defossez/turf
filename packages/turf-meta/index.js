@@ -1,5 +1,5 @@
 var circle = require('@turf/circle');
-var point = require('@turf/heplers').point;
+var point = require('@turf/helpers').point;
 
 /**
  * Iterate over coordinates in any GeoJSON object, similar to
