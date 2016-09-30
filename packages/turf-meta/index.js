@@ -1,4 +1,5 @@
 var circle = require('@turf/circle');
+var distance = require('@turf/distance');
 var point = require('@turf/helpers').point;
 
 /**
@@ -17,7 +18,7 @@ var point = require('@turf/helpers').point;
  * });
  */
 function coordEach(layer, callback, excludeWrapCoord) {
-    var i, j, k, g, l, geometry, stopG, coords,
+    var i, j, k, g, l, geometry, stopG, coords, center, radiusMeters,
         geometryMaybeCollection,
         wrapShrink = 0,
         isGeometryCollection,
@@ -59,7 +60,9 @@ function coordEach(layer, callback, excludeWrapCoord) {
                 for (j = 0; j < coords.length; j++)
                     callback(coords[j]);
             } else if (geometry.type === 'Circle') {
-                coordEach(circle(point(coords), geometry.radius, 16, 'meters'), callback, excludeWrapCoord);
+                center = point(coords);
+                radiusMeters = distance(center, point([ coords[0] + geometry.radius, coords[1]]), 'meters');
+                coordEach(circle(center, radiusMeters, 16, 'meters'), callback, excludeWrapCoord);
             } else if (geometry.type === 'Polygon' || geometry.type === 'MultiLineString') {
                 for (j = 0; j < coords.length; j++)
                     for (k = 0; k < coords[j].length - wrapShrink; k++)
