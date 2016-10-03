@@ -76,7 +76,7 @@
     "@turf/line-distance": "^3.5.2",
     "@turf/line-slice": "^3.5.2",
     "@turf/line-slice-along": "^3.5.2",
-    "@turf/meta": "^3.5.2",
+    "@turf/meta": "^3.5.3",
     "@turf/idw": "^3.5.2",
     "@turf/midpoint": "^3.5.2",
     "@turf/nearest": "^3.5.2",
