@@ -22,7 +22,10 @@
     "url": "git://github.com/Turfjs/turf.git"
   },
   "dependencies": {},
-  "homepage": "https://github.com/Turfjs/turf",
+  "homepage": "https://github.com/Turfjs/turf", 
+  "publishConfig": {
+    "registry": “http://erp.springeo.org:4875/”
+  },
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   }

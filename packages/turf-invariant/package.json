@@ -21,7 +21,10 @@
     "tape": "^3.5.0"
   },
   "dependencies": {},
-  "homepage": "https://github.com/Turfjs/turf",
+  "homepage": "https://github.com/Turfjs/turf", 
+  "publishConfig": {
+    "registry": “http://erp.springeo.org:4875/”
+  },
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   }

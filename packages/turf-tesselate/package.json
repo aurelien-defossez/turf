@@ -26,7 +26,10 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf",
+  "homepage": "https://github.com/Turfjs/turf", 
+  "publishConfig": {
+    "registry": “http://erp.springeo.org:4875/”
+  },
   "devDependencies": {
     "tape": "^4.0.0",
     "@turf/helpers": "^3.5.3-circle"
