@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
-    "registry": "http://erp.springeo.org:4875/"
+    "registry": "http://npm.springeo.org:4875/"
   },
   "dependencies": {
     "turf-bearing": "^3.0.1",
