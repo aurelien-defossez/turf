@@ -1,6 +1,6 @@
 {
   "name": "@turf/envelope",
-  "version": "3.5.2",
+  "version": "3.5.3-circle",
   "description": "turf envelope module",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf", 
+  "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
     "registry": "http://erp.springeo.org:4875/"
   },
@@ -31,7 +31,7 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/bbox-polygon": "^3.5.2",
-    "@turf/bbox": "^3.5.2"
+    "@turf/bbox-polygon": "^3.5.3-circle",
+    "@turf/bbox": "^3.5.3-circle"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@turf/tesselate",
-  "version": "3.5.2",
+  "version": "3.5.3-circle",
   "description": "[Turf](http://turfjs.org/) tesselate module",
   "main": "index.js",
   "scripts": {
@@ -26,16 +26,16 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf", 
+  "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
     "registry": "http://erp.springeo.org:4875/"
   },
   "devDependencies": {
     "tape": "^4.0.0",
-    "@turf/helpers": "^3.5.2"
+    "@turf/helpers": "^3.5.3-circle"
   },
   "dependencies": {
     "earcut": "^2.0.0",
-    "@turf/helpers": "^3.5.2"
+    "@turf/helpers": "^3.5.3-circle"
   }
 }

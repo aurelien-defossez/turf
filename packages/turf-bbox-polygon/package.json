@@ -1,6 +1,6 @@
 {
   "name": "@turf/bbox-polygon",
-  "version": "3.5.2",
+  "version": "3.5.3-circle",
   "description": "turf bboxPolygon module",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf", 
+  "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
     "registry": "http://erp.springeo.org:4875/"
   },
@@ -31,6 +31,6 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/helpers": "^3.5.2"
+    "@turf/helpers": "^3.5.3-circle"
   }
 }

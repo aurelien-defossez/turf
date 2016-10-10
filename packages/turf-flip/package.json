@@ -1,6 +1,6 @@
 {
   "name": "@turf/flip",
-  "version": "3.5.2",
+  "version": "3.5.3-circle",
   "description": "turf flip module",
   "main": "index.js",
   "scripts": {
@@ -21,16 +21,16 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf", 
+  "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
     "registry": "http://erp.springeo.org:4875/"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/helpers": "^3.5.2"
+    "@turf/helpers": "^3.5.3-circle"
   },
   "dependencies": {
-    "@turf/meta": "^3.5.2"
+    "@turf/meta": "^3.5.3-circle"
   }
 }

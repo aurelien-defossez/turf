@@ -1,6 +1,6 @@
 {
   "name": "@turf/point-on-surface",
-  "version": "3.5.2",
+  "version": "3.5.3-circle",
   "description": "turf point-on-surface module",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf", 
+  "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
     "registry": "http://erp.springeo.org:4875/"
   },
@@ -32,10 +32,10 @@
     "benchmark": "^1.0.0"
   },
   "dependencies": {
-    "@turf/center": "^3.5.2",
-    "@turf/distance": "^3.5.2",
-    "@turf/explode": "^3.5.2",
-    "@turf/inside": "^3.5.2",
-    "@turf/helpers": "^3.5.2"
+    "@turf/center": "^3.5.3-circle",
+    "@turf/distance": "^3.5.3-circle",
+    "@turf/explode": "^3.5.3-circle",
+    "@turf/inside": "^3.5.3-circle",
+    "@turf/helpers": "^3.5.3-circle"
   }
 }

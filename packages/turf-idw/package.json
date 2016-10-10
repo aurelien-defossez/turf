@@ -1,16 +1,16 @@
 {
   "name": "@turf/idw",
-  "version": "3.5.2",
+  "version": "3.5.3-circle",
   "description": "Calculate a grid with IDW - Inverse Distance Weighted - values.",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "@turf/centroid": "^3.5.2",
-    "@turf/distance": "^3.5.2",
-    "@turf/bbox": "^3.5.2",
-    "@turf/square-grid": "^3.5.2"
+    "@turf/centroid": "^3.5.3-circle",
+    "@turf/distance": "^3.5.3-circle",
+    "@turf/bbox": "^3.5.3-circle",
+    "@turf/square-grid": "^3.5.3-circle"
   },
   "devDependencies": {
     "tape": "^4.5.1"
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
-  "homepage": "https://github.com/Turfjs/turf", 
+  "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {
     "registry": "http://erp.springeo.org:4875/"
   }
