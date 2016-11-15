@@ -1,16 +1,16 @@
 {
   "name": "@turf/triangle-grid",
-  "version": "3.5.4-circle",
+  "version": "3.5.3-circle",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@turf/distance": "3.5.3-circle",
-    "@turf/helpers": "3.5.3-circle"
+    "@turf/distance": "^3.5.3-circle",
+    "@turf/helpers": "^3.5.3-circle"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/bbox-polygon": "3.5.3-circle"
+    "@turf/bbox-polygon": "^3.5.3-circle"
   },
   "scripts": {
     "test": "node test.js"
