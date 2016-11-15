@@ -1,6 +1,6 @@
 {
   "name": "@turf/helpers",
-  "version": "3.5.3-circle",
+  "version": "3.5.4-circle",
   "description": "turf geometries",
   "main": "index.js",
   "scripts": {

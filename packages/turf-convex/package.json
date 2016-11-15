@@ -1,6 +1,6 @@
 {
   "name": "@turf/convex",
-  "version": "3.5.3-circle",
+  "version": "3.5.4-circle",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "convex-hull": "^1.0.3",
-    "@turf/meta": "^3.5.3-circle",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/meta": "3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle"
   }
 }
