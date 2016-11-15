@@ -1,6 +1,6 @@
 {
   "name": "@turf/centroid",
-  "version": "3.5.3-circle",
+  "version": "3.5.5-circle",
   "description": "turf centroid module",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/meta": "^3.5.3-circle",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/meta": "3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle"
   }
 }
