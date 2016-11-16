@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "convex-hull": "^1.0.3",
-    "@turf/meta": "^3.5.3-circle",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/meta": "3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle"
   }
 }

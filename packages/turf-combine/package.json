@@ -18,7 +18,7 @@
     "combine"
   ],
   "dependencies": {
-    "@turf/meta": "^3.5.3-circle"
+    "@turf/meta": "3.5.3-circle"
   },
   "author": "morganherlocker",
   "license": "MIT",
@@ -32,6 +32,6 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/helpers": "3.5.3-circle"
   }
 }

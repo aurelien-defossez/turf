@@ -32,6 +32,6 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/meta": "^3.5.3-circle"
+    "@turf/meta": "3.5.3-circle"
   }
 }

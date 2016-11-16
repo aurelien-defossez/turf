@@ -31,7 +31,7 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/bbox-polygon": "^3.5.3-circle",
-    "@turf/bbox": "^3.5.3-circle"
+    "@turf/bbox-polygon": "3.5.3-circle",
+    "@turf/bbox": "3.5.3-circle"
   }
 }

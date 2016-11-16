@@ -32,7 +32,7 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/bbox": "^3.5.3-circle",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/bbox": "3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle"
   }
 }

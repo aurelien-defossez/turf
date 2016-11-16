@@ -30,6 +30,6 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/distance": "^3.5.3-circle"
+    "@turf/distance": "3.5.3-circle"
   }
 }

@@ -28,13 +28,13 @@
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
-    "@turf/helpers": "^3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle",
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/bearing": "^3.5.3-circle",
-    "@turf/destination": "^3.5.3-circle",
-    "@turf/distance": "^3.5.3-circle",
-    "@turf/invariant": "^3.5.3-circle"
+    "@turf/bearing": "3.5.3-circle",
+    "@turf/destination": "3.5.3-circle",
+    "@turf/distance": "3.5.3-circle",
+    "@turf/invariant": "3.5.3-circle"
   }
 }

@@ -30,9 +30,9 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/helpers": "3.5.3-circle"
   },
   "dependencies": {
-    "@turf/inside": "^3.5.3-circle"
+    "@turf/inside": "3.5.3-circle"
   }
 }

@@ -27,7 +27,7 @@
     "registry": "http://npm.springeo.org:4875/"
   },
   "dependencies": {
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/helpers": "3.5.3-circle"
   },
   "devDependencies": {
     "benchmark": "1.0.0",

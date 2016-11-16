@@ -32,10 +32,10 @@
     "tape": "~3.5.0"
   },
   "dependencies": {
-    "@turf/meta": "^3.5.3-circle",
-    "@turf/centroid": "^3.5.3-circle",
-    "@turf/convex": "^3.5.3-circle",
-    "@turf/explode": "^3.5.3-circle",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/meta": "3.5.3-circle",
+    "@turf/centroid": "3.5.3-circle",
+    "@turf/convex": "3.5.3-circle",
+    "@turf/explode": "3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle"
   }
 }

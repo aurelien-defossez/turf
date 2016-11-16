@@ -34,11 +34,11 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/distance": "^3.5.3-circle",
-    "@turf/inside": "^3.5.3-circle"
+    "@turf/distance": "3.5.3-circle",
+    "@turf/inside": "3.5.3-circle"
   },
   "dependencies": {
-    "@turf/destination": "^3.5.3-circle",
-    "@turf/helpers": "^3.5.3-circle"
+    "@turf/destination": "3.5.3-circle",
+    "@turf/helpers": "3.5.3-circle"
   }
 }
