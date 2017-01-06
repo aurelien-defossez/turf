@@ -1,16 +1,16 @@
 {
   "name": "@turf/triangle-grid",
-  "version": "3.5.3-circle2",
+  "version": "3.7.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@turf/distance": "3.5.3-circle2",
-    "@turf/helpers": "3.5.3-circle2"
+    "@turf/distance": "^3.7.0",
+    "@turf/helpers": "^3.6.3"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/bbox-polygon": "3.5.3-circle2"
+    "@turf/bbox-polygon": "^3.7.0"
   },
   "scripts": {
     "test": "node test.js"
@@ -33,7 +33,5 @@
     "url": "https://github.com/Turfjs/turf/issues"
   },
   "homepage": "https://github.com/Turfjs/turf",
-  "publishConfig": {
-    "registry": "http://npm.springeo.org:4875/"
-  }
+  "types": "index.d.ts"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@turf/random",
-  "version": "3.5.3-circle2",
+  "version": "3.7.0",
   "description": "generate random features",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,6 @@
     "url": "https://github.com/Turfjs/turf/issues"
   },
   "homepage": "https://github.com/Turfjs/turf",
-  "publishConfig": {
-    "registry": "http://npm.springeo.org:4875/"
-  },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "glob": "~4.3.5",
@@ -30,5 +27,6 @@
   },
   "dependencies": {
     "geojson-random": "^0.2.2"
-  }
+  },
+  "types": "index.d.ts"
 }

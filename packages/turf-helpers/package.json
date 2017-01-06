@@ -1,10 +1,10 @@
 {
   "name": "@turf/helpers",
-  "version": "3.5.3-circle2",
+  "version": "3.7.1",
   "description": "turf geometries",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js && tsc index.d.ts"
   },
   "repository": {
     "type": "git",
@@ -22,12 +22,10 @@
     "url": "https://github.com/Turfjs/turf/issues"
   },
   "homepage": "https://github.com/Turfjs/turf",
-  "publishConfig": {
-    "registry": "http://npm.springeo.org:4875/"
-  },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "types": "index.d.ts"
 }

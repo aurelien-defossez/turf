@@ -268,7 +268,8 @@ var factors = {
     meters: 6373000,
     metres: 6373000,
     kilometers: 6373,
-    kilometres: 6373
+    kilometres: 6373,
+    feet: 20908792.65
 };
 
 /*
@@ -276,7 +277,7 @@ var factors = {
  *
  * @name radiansToDistance
  * @param {number} distance in radians across the sphere
- * @param {string=kilometers} units: one of miles, nauticalmiles, degrees, radians,
+ * @param {string} [units=kilometers] can be degrees, radians, miles, or kilometers
  * inches, yards, metres, meters, kilometres, kilometers.
  * @returns {number} distance
  */
@@ -293,7 +294,7 @@ module.exports.radiansToDistance = function (radians, units) {
  *
  * @name distanceToRadians
  * @param {number} distance in real units
- * @param {string=kilometers} units: one of miles, nauticalmiles, degrees, radians,
+ * @param {string} [units=kilometers] can be degrees, radians, miles, or kilometers
  * inches, yards, metres, meters, kilometres, kilometers.
  * @returns {number} radians
  */
@@ -310,7 +311,7 @@ module.exports.distanceToRadians = function (distance, units) {
  *
  * @name distanceToRadians
  * @param {number} distance in real units
- * @param {string=kilometers} units: one of miles, nauticalmiles, degrees, radians,
+ * @param {string} [units=kilometers] can be degrees, radians, miles, or kilometers
  * inches, yards, metres, meters, kilometres, kilometers.
  * @returns {number} degrees
  */
