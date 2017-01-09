@@ -37,7 +37,7 @@
     "@turf/helpers": "3.7.1-springeo"
   },
   "dependencies": {
-    "geojson-normalize": "0.0.0",
+    "@mapbox/geojson-normalize": "^0.0.1",
     "jsts": "1.2.0",
     "@turf/combine": "3.7.1-springeo",
     "@turf/helpers": "3.7.1-springeo"
