@@ -1,6 +1,6 @@
 {
   "name": "@turf/buffer",
-  "version": "3.5.3-circle2",
+  "version": "3.7.1-springeo",
   "description": "turf buffer module",
   "main": "index.js",
   "scripts": {
@@ -32,15 +32,15 @@
     "benchmark": "^1.0.0",
     "glob": "^5.0.3",
     "tape": "^3.5.0",
-    "@turf/distance": "3.5.3-circle2",
-    "@turf/bbox": "3.5.3-circle2",
-    "@turf/helpers": "3.5.3-circle2"
+    "@turf/distance": "3.7.1-springeo",
+    "@turf/bbox": "3.7.1-springeo",
+    "@turf/helpers": "3.7.1-springeo"
   },
   "dependencies": {
     "@mapbox/geojson-normalize": "^0.0.1",
     "jsts": "1.2.0",
-    "@turf/combine": "3.5.3-circle2",
-    "@turf/helpers": "3.5.3-circle2"
+    "@turf/combine": "3.7.1-springeo",
+    "@turf/helpers": "3.7.1-springeo"
   },
   "types": "index.d.ts"
 }

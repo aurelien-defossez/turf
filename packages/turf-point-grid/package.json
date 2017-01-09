@@ -1,6 +1,6 @@
 {
   "name": "@turf/point-grid",
-  "version": "3.5.3-circle2",
+  "version": "3.7.1-springeo",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -28,11 +28,11 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/bbox-polygon": "3.5.3-circle2"
+    "@turf/bbox-polygon": "3.7.1-springeo"
   },
   "dependencies": {
-    "@turf/distance": "3.5.3-circle2",
-    "@turf/helpers": "3.5.3-circle2"
+    "@turf/distance": "3.7.1-springeo",
+    "@turf/helpers": "3.7.1-springeo"
   },
   "types": "index.d.ts"
 }
