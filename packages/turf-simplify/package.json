@@ -1,6 +1,6 @@
 {
   "name": "@turf/simplify",
-  "version": "3.5.3-circle2",
+  "version": "3.7.1-springeo",
   "description": "simplify geographic shapes",
   "main": "index.js",
   "directories": {

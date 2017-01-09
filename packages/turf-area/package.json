@@ -1,6 +1,6 @@
 {
   "name": "@turf/area",
-  "version": "3.5.3-circle2",
+  "version": "3.7.1-springeo",
   "description": "calculate the area of a polygon or multipolygon feature",
   "main": "index.js",
   "scripts": {
