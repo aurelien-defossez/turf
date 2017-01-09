@@ -1,6 +1,6 @@
 {
   "name": "@turf/invariant",
-  "version": "3.7.0",
+  "version": "3.5.3-circle2",
   "description": "enforce expectations about inputs to turf",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,9 @@
   },
   "dependencies": {},
   "homepage": "https://github.com/Turfjs/turf",
+  "publishConfig": {
+    "registry": "http://npm.springeo.org:4875/"
+  },
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },

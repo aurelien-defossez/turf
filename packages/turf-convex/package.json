@@ -1,6 +1,6 @@
 {
   "name": "@turf/convex",
-  "version": "3.7.0",
+  "version": "3.5.3-circle2",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -23,6 +23,9 @@
     "url": "https://github.com/Turfjs/turf/issues"
   },
   "homepage": "https://github.com/Turfjs/turf",
+  "publishConfig": {
+    "registry": "http://npm.springeo.org:4875/"
+  },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "glob": "~4.3.5",
@@ -30,8 +33,8 @@
   },
   "dependencies": {
     "convex-hull": "^1.0.3",
-    "@turf/meta": "^3.7.0",
-    "@turf/helpers": "^3.6.3"
+    "@turf/meta": "3.5.3-circle2",
+    "@turf/helpers": "3.5.3-circle2"
   },
   "types": "index.d.ts"
 }

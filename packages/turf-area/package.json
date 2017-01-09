@@ -1,6 +1,6 @@
 {
   "name": "@turf/area",
-  "version": "3.7.1",
+  "version": "3.5.3-circle2",
   "description": "calculate the area of a polygon or multipolygon feature",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "Tom MacWright",
   "license": "ISC",
   "dependencies": {
-    "@mapbox/geojson-area": "^0.2.2"
+    "geojson-area": "^0.2.1"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,11 @@
     "tape": "^3.5.0"
   },
   "homepage": "https://github.com/Turfjs/turf",
+  "publishConfig": {
+    "registry": "http://npm.springeo.org:4875/"
+  },
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
-  }
+  },
+  "types": "index.d.ts"
 }
