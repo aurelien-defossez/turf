@@ -1,6 +1,6 @@
 {
   "name": "@turf/flip",
-  "version": "3.7.1-springeo",
+  "version": "3.5.3-circle2",
   "description": "turf flip module",
   "main": "index.js",
   "scripts": {
@@ -28,10 +28,10 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/helpers": "3.5.3-circle2"
   },
   "dependencies": {
-    "@turf/meta": "3.7.1-springeo"
+    "@turf/meta": "3.5.3-circle2"
   },
   "types": "index.d.ts"
 }

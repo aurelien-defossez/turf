@@ -1,6 +1,6 @@
 {
   "name": "@turf/center-of-mass",
-  "version": "3.7.1-springeo",
+  "version": "3.5.3-circle2",
   "description": "Turf center of mass module",
   "main": "index.js",
   "directories": {
@@ -32,11 +32,11 @@
     "tape": "~3.5.0"
   },
   "dependencies": {
-    "@turf/meta": "3.7.1-springeo",
-    "@turf/centroid": "3.7.1-springeo",
-    "@turf/convex": "3.7.1-springeo",
-    "@turf/explode": "3.7.1-springeo",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/meta": "3.5.3-circle2",
+    "@turf/centroid": "3.5.3-circle2",
+    "@turf/convex": "3.5.3-circle2",
+    "@turf/explode": "3.5.3-circle2",
+    "@turf/helpers": "3.5.3-circle2"
   },
   "types": "index.d.ts"
 }

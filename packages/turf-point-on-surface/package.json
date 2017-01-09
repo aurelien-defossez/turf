@@ -1,6 +1,6 @@
 {
   "name": "@turf/point-on-surface",
-  "version": "3.7.1-springeo",
+  "version": "3.5.3-circle2",
   "description": "turf point-on-surface module",
   "main": "index.js",
   "scripts": {
@@ -32,11 +32,11 @@
     "benchmark": "^1.0.0"
   },
   "dependencies": {
-    "@turf/center": "3.7.1-springeo",
-    "@turf/distance": "3.7.1-springeo",
-    "@turf/explode": "3.7.1-springeo",
-    "@turf/inside": "3.7.1-springeo",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/center": "3.5.3-circle2",
+    "@turf/distance": "3.5.3-circle2",
+    "@turf/explode": "3.5.3-circle2",
+    "@turf/inside": "3.5.3-circle2",
+    "@turf/helpers": "3.5.3-circle2"
   },
   "types": "index.d.ts"
 }
