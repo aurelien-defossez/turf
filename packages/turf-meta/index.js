@@ -61,7 +61,7 @@ function coordEach(layer, callback, excludeWrapCoord) {
                     callback(coords[j]);
             } else if (geometry.type === 'Circle') {
                 center = point(coords);
-                radiusMeters = distance(center, point([ coords[0] + geometry.radius, coords[1]]), 'meters');
+                radiusMeters = distance(center, point([coords[0] + geometry.radius, coords[1]]), 'meters');
                 coordEach(circle(center, radiusMeters, 16, 'meters'), callback, excludeWrapCoord);
             } else if (geometry.type === 'Polygon' || geometry.type === 'MultiLineString') {
                 for (j = 0; j < coords.length; j++)
