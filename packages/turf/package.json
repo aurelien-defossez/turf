@@ -3,6 +3,7 @@
   "version": "3.7.1-springeo",
   "description": "a JavaScript library for performing geospatial operations with GeoJSON",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo 1",
     "prepublish": "npm run build",
@@ -13,7 +14,8 @@
     "index.js",
     "bower.json",
     "turf.js",
-    "turf.min.js"
+    "turf.min.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
@@ -110,7 +112,7 @@
     "jsdoc": "^3.3.0-beta1",
     "lerna": "https://github.com/kittens/lerna/archive/master.tar.gz",
     "tape": "^3.5.0",
-    "uglify-js": "~2.4.16"
+    "uglify-js": "^2.7.5"
   },
   "homepage": "https://github.com/Turfjs/turf",
   "publishConfig": {

@@ -10,30 +10,35 @@
     "type": "git",
     "url": "git://github.com/Turfjs/turf.git"
   },
-  "keywords": [
-    "turf",
-    "aggregate",
-    "points",
-    "geojson",
-    "polygons",
-    "stats"
-  ],
-  "author": "morganherlocker",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Turfjs/turf/issues"
   },
+  "keywords": [
+    "aggregate",
+    "turf",
+    "geojson",
+    "points",
+    "polygons",
+    "stats"
+  ],
   "homepage": "https://github.com/Turfjs/turf",
+  "author": "Morgan Herlocker",
+  "contributors": [
+    "Rowan Winsemius"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "rbush": "^2.0.1",
+    "@turf/bbox": "3.7.1-springeo",
+    "@turf/inside": "3.7.1-springeo"
+  },
   "publishConfig": {
     "registry": "http://npm.springeo.org:4875/"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
-    "tape": "^3.5.0",
+    "tape": "^3.6.1",
     "@turf/helpers": "3.7.1-springeo"
-  },
-  "dependencies": {
-    "@turf/inside": "3.7.1-springeo"
   },
   "types": "index.d.ts"
 }

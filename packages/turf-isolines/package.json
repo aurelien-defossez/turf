@@ -33,11 +33,12 @@
   },
   "dependencies": {
     "@turf/bbox": "3.7.1-springeo",
-    "turf-grid": "1.0.1",
+    "@turf/point-grid": "3.7.1-springeo",
     "@turf/inside": "3.7.1-springeo",
     "@turf/helpers": "3.7.1-springeo",
     "@turf/planepoint": "3.7.1-springeo",
     "@turf/square": "3.7.1-springeo",
+    "@turf/tin": "3.7.1-springeo",
     "@turf/tin": "3.7.1-springeo"
   },
   "types": "index.d.ts"

@@ -27,7 +27,8 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "glob": "~4.3.5",
-    "tape": "~3.5.0"
+    "tape": "~3.5.0",
+    "@turf/helpers": "3.7.1-springeo"
   },
   "dependencies": {
     "@turf/meta": "3.7.1-springeo",

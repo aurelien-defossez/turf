@@ -41,7 +41,7 @@ var lineString = require('@turf/helpers').lineString;
  *
  * var units = 'miles';
  *
- * var sliced = turf.lineSliceAlong(start, stop, line, units);
+ * var sliced = turf.lineSliceAlong(line, start, stop, units);
  *
  * //=line
  *
@@ -83,6 +83,10 @@ module.exports = function lineSliceAlong(line, startDist, stopDist, units) {
 
         if (travelled >= startDist) {
             slice.push(coords[i]);
+        }
+
+        if (i === coords.length - 1) {
+            return lineString(slice);
         }
 
         travelled += distance(coords[i], coords[i + 1], units);
