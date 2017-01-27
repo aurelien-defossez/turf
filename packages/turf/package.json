@@ -69,6 +69,7 @@
     "@turf/concave": "3.7.1-springeo",
     "@turf/convex": "3.7.1-springeo",
     "@turf/destination": "3.7.1-springeo",
+    "@turf/dissolve": "3.7.1-springeo",
     "@turf/distance": "3.7.1-springeo",
     "@turf/envelope": "3.7.1-springeo",
     "@turf/difference": "3.7.1-springeo",
@@ -76,6 +77,7 @@
     "@turf/bbox": "3.7.1-springeo",
     "@turf/flip": "3.7.1-springeo",
     "@turf/tesselate": "3.7.1-springeo",
+    "@turf/helpers": "3.7.1-springeo",
     "@turf/hex-grid": "3.7.1-springeo",
     "@turf/inside": "3.7.1-springeo",
     "@turf/intersect": "3.7.1-springeo",
@@ -102,8 +104,7 @@
     "@turf/tin": "3.7.1-springeo",
     "@turf/triangle-grid": "3.7.1-springeo",
     "@turf/union": "3.7.1-springeo",
-    "@turf/within": "3.7.1-springeo",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/within": "3.7.1-springeo"
   },
   "devDependencies": {
     "browserify": "~9.0.3",
