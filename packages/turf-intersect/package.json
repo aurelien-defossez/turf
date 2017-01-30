@@ -1,6 +1,6 @@
 {
   "name": "@turf/intersect",
-  "version": "3.7.1-springeo",
+  "version": "3.8.0-springeo",
   "description": "find the intersection of spatial features",
   "main": "index.js",
   "scripts": {

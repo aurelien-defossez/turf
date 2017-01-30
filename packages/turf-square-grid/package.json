@@ -1,11 +1,11 @@
 {
   "name": "@turf/square-grid",
-  "version": "3.7.1-springeo",
+  "version": "3.8.0-springeo",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@turf/distance": "3.7.1-springeo",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/distance": "3.8.0-springeo",
+    "@turf/helpers": "3.8.0-springeo"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",

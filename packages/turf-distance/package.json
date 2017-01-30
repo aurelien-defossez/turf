@@ -1,6 +1,6 @@
 {
   "name": "@turf/distance",
-  "version": "3.7.1-springeo",
+  "version": "3.8.0-springeo",
   "description": "turf distance module",
   "main": "index.js",
   "scripts": {
@@ -30,8 +30,8 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "@turf/invariant": "3.7.1-springeo",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/invariant": "3.8.0-springeo",
+    "@turf/helpers": "3.8.0-springeo"
   },
   "types": "index.d.ts"
 }

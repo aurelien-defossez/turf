@@ -1,6 +1,6 @@
 {
   "name": "@turf/hex-grid",
-  "version": "3.7.1-springeo",
+  "version": "3.8.0-springeo",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,13 +37,13 @@
   "devDependencies": {
     "benchmark": "^1.0.0",
     "tape": "^3.5.0",
-    "@turf/bbox-polygon": "3.7.1-springeo",
-    "@turf/explode": "3.7.1-springeo",
-    "@turf/inside": "3.7.1-springeo"
+    "@turf/bbox-polygon": "3.8.0-springeo",
+    "@turf/explode": "3.8.0-springeo",
+    "@turf/inside": "3.8.0-springeo"
   },
   "dependencies": {
-    "@turf/distance": "3.7.1-springeo",
-    "@turf/helpers": "3.7.1-springeo"
+    "@turf/distance": "3.8.0-springeo",
+    "@turf/helpers": "3.8.0-springeo"
   },
   "types": "index.d.ts"
 }
